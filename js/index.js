@@ -40,7 +40,7 @@ personagens.forEach((personagem) => {
     */
 
     const imagemJogador1 = document.getElementById('personagem-jogador-1');
-    imagemJogador1.src = `./imagens/${idSelecionado}.png`;
+    imagemJogador1.src = `/imagens/${idSelecionado}.png`;
 
     const nomeJogador1 = document.getElementById('nome-jogador-1');
     const nomeSelecionado = personagem.getAttribute('data-name');
